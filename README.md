@@ -91,14 +91,14 @@ Application Binary Interface is an interface that allows application programmers
 
 
 ## Digital Logic with TL-Verilog and Makerchip
- **Makerchip**
+ <u>**Makerchip**</u>
 
 [Makerchip](https://makerchip.com/) is a powerful, browser-based IDE developed by **Redwood EDA** for building, simulating, and debugging digital hardware designs. It provides a seamless workflow to **write TL-Verilog code**, **simulate behavior**, and **visualize waveforms** — all in one place, with zero installation required.
 
 Makerchip was the central tool used throughout the MYTH Workshop, enabling real-time experimentation and rapid design iterations for all hardware modules.
 
-
- **TL-Verilog**
+<u>**TL-Verilog**</u>
+ 
 
 **TL-Verilog (Transaction-Level Verilog)** is a modern extension of SystemVerilog that simplifies digital design by introducing **higher levels of abstraction**, **cleaner syntax**, and **built-in pipelining constructs**. It significantly reduces the code complexity while retaining the full expressiveness needed for real-world hardware.
 
@@ -110,9 +110,9 @@ Compared to traditional RTL design in SystemVerilog, TL-Verilog makes it easier 
 
 It is particularly well-suited for educational and early-stage processor development, making complex digital concepts easier to grasp and implement.
 
+ <u>**Digital Design Learning**</u>
 
- **Digital Design Learning**
-
+ 
 During the first few days of the workshop, I explored fundamental digital circuits using TL-Verilog on Makerchip. I implemented and simulated:
 - **Basic logic gates** (AND, OR, NOT, XOR)
 - **Combinational logic blocks**
@@ -177,7 +177,7 @@ As part of the decode process, the register file was introduced to read the nece
 
 ![riscVDecodeLogic](https://github.com/SumitSengar47/RISC-V-CPU-Core-using-TL-Verilog/blob/d61ba88763c15110b9639affb86ceb22cf1f956b/Images/6_Instruction_decode.png)
 
-> 📈 _Waveform: Branch Instruction Decoding (BLT Signal)_
+ _Waveform: Branch Instruction Decoding (BLT Signal)_
 
 ![Instruction_Decode_Waveform](https://user-images.githubusercontent.com/14968674/92879155-69db3980-f42a-11ea-9457-c2254b092e05.png)
 
@@ -196,7 +196,7 @@ _ADDI Instruction Computation in ALU_
 ![ADD_register_write](https://github.com/SumitSengar47/RISC-V-CPU-Core-using-TL-Verilog/blob/d61ba88763c15110b9639affb86ceb22cf1f956b/Images/7_2_Viz.png)
 
 
-## 🧵 RISC-V Pipelined Core
+##  RISC-V Pipelined Core
 
 The final stage was converting the 3-stage processor into a **5-stage pipelined CPU** by leveraging **timing-abstract modeling** in TL-Verilog. The five stages are:
 
@@ -215,6 +215,8 @@ The final pipelined core executes a test program that computes the **sum of 9 nu
  _RISC-V 5-Stage Pipelined Core_
 
 ![RISCV_CPU_CORE](https://github.com/SumitSengar47/RISC-V-CPU-Core-using-TL-Verilog/blob/d61ba88763c15110b9639affb86ceb22cf1f956b/Images/7_1final_output.jpg)
+
+ <u>**RISC-V-CPU-Core**</u>
 
 ![RiscV-CPU-Final](https://github.com/SumitSengar47/RISC-V-CPU-Core-using-TL-Verilog/blob/d61ba88763c15110b9639affb86ceb22cf1f956b/Images/7_3Final_Output_for_RISC-V_Implemented_CPU_Core.JPG)
 
