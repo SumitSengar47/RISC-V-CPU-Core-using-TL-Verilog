@@ -220,4 +220,43 @@ The final pipelined core executes a test program that computes the **sum of 9 nu
 
 ![RiscV-CPU-Final](https://github.com/SumitSengar47/RISC-V-CPU-Core-using-TL-Verilog/blob/d61ba88763c15110b9639affb86ceb22cf1f956b/Images/7_3Final_Output_for_RISC-V_Implemented_CPU_Core.JPG)
 
----
+## ✅ Future Work 
+
+This project was developed as a part of the **RISC-V based MYTH (Microprocessor for You in Thirty Hours)** workshop conducted by **Kunal Ghosh** and **Steve Hoover**. The current implementation uses **TL-Verilog** to build a basic 5-stage pipelined RISC-V core supporting most of the **RV32I** instruction set.
+
+The following enhancements are planned to be implemented using **SystemVerilog/Verilog** to strengthen practical hardware design skills:
+
+- **Complete RV32I ISA**  
+  Implement any remaining instructions in the RV32I base ISA not   already supported in TL-Verilog.
+
+- **'M' Extension (Integer Multiply/Divide)**  
+  Add hardware support for `MUL`, `DIV`, `REM` instructions using  Verilog modules for multiplication and division.
+
+- **Control and Status Registers (CSR)**  
+  Introduce machine-level instructions and implement CSR logic and register file in Verilog.
+
+- **Hazard Detection Unit**  
+  Create logic to detect and resolve data, control, and structural hazards between pipeline stages.
+
+- **Forwarding Unit**  
+  Implement forwarding (bypassing) logic to avoid unnecessary stalls in the pipeline.
+
+- **Verilog Testbenches**  
+  Develop a comprehensive suite of directed and randomized Verilog testbenches to verify functionality stage by stage.
+
+- **FPGA Deployment**  
+  Synthesize the design in tools like **Vivado**, and deploy the Verilog-based CPU on an FPGA such as **Basys3** or **Arty A7**.
+
+- **Memory Interface (AXI4-Lite/SRAM)**  
+  Add support for external memory interfaces using standard protocols like AXI4-Lite for full SoC integration.
+
+
+
+##  References
+
+- [RISC-V Official Site](https://riscv.org/)  
+- [Makerchip Platform](https://makerchip.com/)  
+- [TL-Verilog Documentation](https://www.redwoodeda.com/tl-verilog) or [http://tl-x.org/](http://tl-x.org/)  
+- [Redwood EDA](https://www.redwoodeda.com/)  
+- [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/)
+
