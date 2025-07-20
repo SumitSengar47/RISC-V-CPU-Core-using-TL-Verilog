@@ -6,6 +6,4 @@ The project is developed on the [Makerchip IDE](https://www.makerchip.com/) ,a b
 
 This workshop offers a practical and accelerated path into computer architecture and digital design, ideal for students, enthusiasts, and budding VLSI engineers.
 
-   ![riscv cpu](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fsiddharth23-8%2F32-bit-RISC-V-Cpu-Core&psig=AOvVaw0zhQngo4sRuxB3g3kKrGsQ&ust=1753086407805000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiV6veBy44DFQAAAAAdAAAAABAE)
-
-
+  ![abi](Images/Application Binary Interface (ABI).png)
